@@ -80,7 +80,7 @@ class FullScreen {
                 break;
             case 'web':
                 this.player.container.classList.add('dplayer-fulled');
-                document.body.classList.add('dplayer-web-fullscreen-fix');
+                // document.body.classList.add('dplayer-web-fullscreen-fix');
                 this.player.events.trigger('webfullscreen');
                 break;
         }
@@ -109,7 +109,7 @@ class FullScreen {
                 break;
             case 'web':
                 this.player.container.classList.remove('dplayer-fulled');
-                document.body.classList.remove('dplayer-web-fullscreen-fix');
+                // document.body.classList.remove('dplayer-web-fullscreen-fix');
                 this.player.events.trigger('webfullscreen_cancel');
                 break;
         }

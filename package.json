@@ -1,7 +1,7 @@
 {
-    "name": "dplayer",
-    "version": "1.26.0",
-    "description": "Wow, such a lovely HTML5 danmaku video player",
+    "name": "@nyaone/dplayer-misskey",
+    "version": "1.0.0",
+    "description": "DPlayer modified version especially for Misskey",
     "main": "dist/DPlayer.min.js",
     "scripts": {
         "start": "npm run dev",
@@ -18,11 +18,12 @@
         "dist"
     ],
     "repository": {
-        "url": "git+https://github.com/DIYgod/DPlayer.git",
+        "url": "git+https://github.com/nyaone/dplayer-misskey.git",
         "type": "git"
     },
     "keywords": [
-        "player",
+        "dplayer",
+        "misskey",
         "danmaku",
         "video",
         "html5"
@@ -33,9 +34,9 @@
     "author": "DIYgod",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/DIYgod/DPlayer/issues"
+        "url": "https://github.com/nyaone/dplayer-misskey/issues"
     },
-    "homepage": "https://github.com/DIYgod/DPlayer#readme",
+    "homepage": "https://github.com/nyaone/dplayer-misskey#readme",
     "devDependencies": {
         "@babel/core": "^7.6.0",
         "@babel/preset-env": "^7.4.5",
