@@ -4,12 +4,12 @@ class FullScreen {
     constructor(player) {
         this.player = player;
         this.lastScrollPosition = { left: 0, top: 0 };
-        this.player.events.on('webfullscreen', () => {
+        this.player.events.on('notefullscreen', () => {
             this.player.resize();
         });
-        this.player.events.on('webfullscreen_cancel', () => {
+        this.player.events.on('notefullscreen_cancel', () => {
             this.player.resize();
-            utils.setScrollPosition(this.lastScrollPosition);
+            // utils.setScrollPosition(this.lastScrollPosition);
         });
 
         const fullscreenchange = () => {
@@ -81,7 +81,7 @@ class FullScreen {
             case 'web':
                 this.player.container.classList.add('dplayer-fulled');
                 // document.body.classList.add('dplayer-web-fullscreen-fix');
-                this.player.events.trigger('webfullscreen');
+                this.player.events.trigger('notefullscreen');
                 break;
         }
 
@@ -110,7 +110,7 @@ class FullScreen {
             case 'web':
                 this.player.container.classList.remove('dplayer-fulled');
                 // document.body.classList.remove('dplayer-web-fullscreen-fix');
-                this.player.events.trigger('webfullscreen_cancel');
+                this.player.events.trigger('notefullscreen_cancel');
                 break;
         }
     }

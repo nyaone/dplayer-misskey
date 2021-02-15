@@ -131,7 +131,7 @@ function initPlayers() {
         'quality_start', 'quality_end',
         'destroy',
         'resize',
-        'fullscreen', 'fullscreen_cancel', 'webfullscreen', 'webfullscreen_cancel',
+        'fullscreen', 'fullscreen_cancel', 'notefullscreen', 'notefullscreen_cancel',
         'subtitle_show', 'subtitle_hide', 'subtitle_change'
     ];
     const eventsEle = document.getElementById('events');
