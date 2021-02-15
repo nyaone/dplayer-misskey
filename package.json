@@ -1,6 +1,6 @@
 {
     "name": "@nyaone/dplayer-misskey",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "DPlayer modified version especially for Misskey",
     "main": "dist/DPlayer.min.js",
     "scripts": {
