@@ -90,9 +90,10 @@ module.exports = {
         historyApiFallback: {
             disableDotRule: true,
         },
-        watchOptions: {
-            ignored: /node_modules/,
-        },
+    },
+
+    watchOptions: {
+        ignored: /node_modules/,
     },
 
     plugins: [
@@ -111,5 +112,9 @@ module.exports = {
 
     performance: {
         hints: false,
+    },
+
+    stats: {
+        colors: true,
     },
 };

@@ -97,4 +97,9 @@ module.exports = {
         net: 'empty',
         tls: 'empty',
     },
+
+    stats: {
+        errorDetails: true,
+        colors: true,
+    },
 };
