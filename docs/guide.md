@@ -35,7 +35,6 @@ sidebar: auto
 | [极酷社](https://www.acg.app) |
 | :---------------------------: |
 
-
 ## Installation
 
 Using npm:
