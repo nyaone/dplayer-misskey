@@ -1,0 +1,36 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: exports-loader
+    versions:
+    - ">= 2.a, < 3"
+  - dependency-name: webpack
+    versions:
+    - "> 4.46.0"
+  - dependency-name: webpack
+    versions:
+    - ">= 5.a, < 6"
+  - dependency-name: mini-css-extract-plugin
+    versions:
+    - 1.5.0
+  - dependency-name: css-loader
+    versions:
+    - 5.1.0
+    - 5.1.2
+  - dependency-name: eslint
+    versions:
+    - 7.21.0
+  - dependency-name: "@babel/preset-env"
+    versions:
+    - 7.13.8
+  - dependency-name: vuepress
+    versions:
+    - 1.8.2
+  - dependency-name: eslint-plugin-prettier
+    versions:
+    - 3.3.1
